@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(151, 96, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 193, 131);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(143, 86, 54);
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(71, 30, 6);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(139, 75, 38);
+    padding: 5px;
+    margin-top: 20px;
+}
+.foto-redonda {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+a {
+    color: rgb(73, 36, 11);
+    text-decoration: antiquewhite;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(138, 80, 46);
+    color: rgb(228, 222, 145);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.botao:hover {
+    background-color: rgb(184, 120, 78);
+}
